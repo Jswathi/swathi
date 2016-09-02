@@ -6,7 +6,8 @@ public static void main(String args[]){
 Scanner sc=new Scanner(System.in);
 Sytem.out.println("Enter the string");
 String s1=sc.next();
-s1.reverse();
-System.out.println(s1);
+StringBuffer s2=new StringBuffer(s1);
+s2.reverse();
+System.out.println(s2);
 }
 }
