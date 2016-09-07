@@ -4,20 +4,20 @@ import java.util.*;
 class WorkingDays{
 public static void main(String args[]){
 Scanner sc=new Scanner(System.in);
-String w[]=new String[5];
+ArrayList<String> w=new ArrayList<String>();
 for(int i=0;i<6;i++)
 {
-   w[i]=sc.next();
+   w.add(sc.next());
 }
 System.out.println("Enter the day");
 String s1=sc.next();
 if(w.contains(s1))
 {
-   System.out.println(s1+"True");
+   System.out.println(s1+"-"+"True");
 }
 else
 {
-   System.out.println(s1+"False");
+   System.out.println(s1+"-"+"False");
 
  }
  }
