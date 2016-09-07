@@ -4,9 +4,10 @@ import java.util.*;
 class WorkingDays{
 public static void main(String args[]){
 Scanner sc=new Scanner(System.in);
+String w[]=new String[5];
 for(int i=0;i<5;i++)
 {
-  String w[i]=sc.next();
+   w[i]=sc.next();
 }
 System.out.println("Enter the day");
 String s1=sc.next();
