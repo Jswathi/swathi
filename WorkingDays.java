@@ -5,7 +5,7 @@ class WorkingDays{
 public static void main(String args[]){
 Scanner sc=new Scanner(System.in);
 String w[]=new String[5];
-for(int i=0;i<5;i++)
+for(int i=0;i<6;i++)
 {
    w[i]=sc.next();
 }
